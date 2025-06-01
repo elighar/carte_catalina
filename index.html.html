@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea5b612381714efb1e88ac0455246fcc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ea5b612381714efb1e88ac0455246fcc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ea5b612381714efb1e88ac0455246fcc = L.map(
+                "map_ea5b612381714efb1e88ac0455246fcc",
+                {
+                    center: [10.0, -20.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c742832fa7cdbf5b9ba40afd8b785f3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var marker_3cc5564c0c39d6fca4583310fcb1ccda = L.marker(
+                [-33.4489, -70.6693],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_b6cd49951e972af57b87711b6226d151 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3cc5564c0c39d6fca4583310fcb1ccda.setIcon(icon_b6cd49951e972af57b87711b6226d151);
+        
+    
+        var popup_c6bb6de024e7429e64b31ceca1650379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2c3b58ce02cbf0b13b65bfaa62d5bc = $(`<div id="html_6a2c3b58ce02cbf0b13b65bfaa62d5bc" style="width: 100.0%; height: 100.0%;">16 sept. 1973 – Santiago</div>`)[0];
+            popup_c6bb6de024e7429e64b31ceca1650379.setContent(html_6a2c3b58ce02cbf0b13b65bfaa62d5bc);
+        
+
+        marker_3cc5564c0c39d6fca4583310fcb1ccda.bindPopup(popup_c6bb6de024e7429e64b31ceca1650379)
+        ;
+
+        
+    
+    
+            var marker_9049d5cf051ca5dc3941c0ed21b61c9c = L.marker(
+                [-32.8908, -68.8458],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_14338ec34aadedfe41e670e380505287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9049d5cf051ca5dc3941c0ed21b61c9c.setIcon(icon_14338ec34aadedfe41e670e380505287);
+        
+    
+        var popup_8c60c725760285a2a7f6ce98b9de90a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc35da7639ea352a6ff7ddf4c4112499 = $(`<div id="html_bc35da7639ea352a6ff7ddf4c4112499" style="width: 100.0%; height: 100.0%;">17 sept. 1973 – Mendoza</div>`)[0];
+            popup_8c60c725760285a2a7f6ce98b9de90a3.setContent(html_bc35da7639ea352a6ff7ddf4c4112499);
+        
+
+        marker_9049d5cf051ca5dc3941c0ed21b61c9c.bindPopup(popup_8c60c725760285a2a7f6ce98b9de90a3)
+        ;
+
+        
+    
+    
+            var marker_341281dc547f5f40e3267b8c7d9c789f = L.marker(
+                [-34.6037, -58.3816],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_4ca8a8b15aa5584c348bcae5b53daaa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_341281dc547f5f40e3267b8c7d9c789f.setIcon(icon_4ca8a8b15aa5584c348bcae5b53daaa3);
+        
+    
+        var popup_1a193f847d477b656797226eb9b70e65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b56333126883c3d777d1ccf709a42582 = $(`<div id="html_b56333126883c3d777d1ccf709a42582" style="width: 100.0%; height: 100.0%;">20 sept. 1973 – Buenos Aires</div>`)[0];
+            popup_1a193f847d477b656797226eb9b70e65.setContent(html_b56333126883c3d777d1ccf709a42582);
+        
+
+        marker_341281dc547f5f40e3267b8c7d9c789f.bindPopup(popup_1a193f847d477b656797226eb9b70e65)
+        ;
+
+        
+    
+    
+            var marker_2c968d587daf1fcce87e2787fffae6ed = L.marker(
+                [0.0, -30.0],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_1ebf767fcd3f604c8083ac857dd99553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2c968d587daf1fcce87e2787fffae6ed.setIcon(icon_1ebf767fcd3f604c8083ac857dd99553);
+        
+    
+        var popup_41ea377d79ff19821fa20ff697ae28ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02e4c0d12d8ea63f55c1f28a48faf55e = $(`<div id="html_02e4c0d12d8ea63f55c1f28a48faf55e" style="width: 100.0%; height: 100.0%;">9 oct. 1973 – Milieu de l'Atlantique</div>`)[0];
+            popup_41ea377d79ff19821fa20ff697ae28ac.setContent(html_02e4c0d12d8ea63f55c1f28a48faf55e);
+        
+
+        marker_2c968d587daf1fcce87e2787fffae6ed.bindPopup(popup_41ea377d79ff19821fa20ff697ae28ac)
+        ;
+
+        
+    
+    
+            var marker_0020e912ef8ae3a971fbda4cf7f72573 = L.marker(
+                [55.0, 5.0],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_f86b077dda9073860ec8353ac74962d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0020e912ef8ae3a971fbda4cf7f72573.setIcon(icon_f86b077dda9073860ec8353ac74962d8);
+        
+    
+        var popup_902da0b0158837845c261dfbd83dc3f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_561c80da6c859a562b57041a758ac5af = $(`<div id="html_561c80da6c859a562b57041a758ac5af" style="width: 100.0%; height: 100.0%;">10 oct. 1973 – Mer du Nord</div>`)[0];
+            popup_902da0b0158837845c261dfbd83dc3f8.setContent(html_561c80da6c859a562b57041a758ac5af);
+        
+
+        marker_0020e912ef8ae3a971fbda4cf7f72573.bindPopup(popup_902da0b0158837845c261dfbd83dc3f8)
+        ;
+
+        
+    
+    
+            var marker_e28a92d522f62ac2e0c20f448cec7d12 = L.marker(
+                [53.5511, 9.9937],
+                {}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            var icon_87e618afd90fcbfdba7c88e02e75c221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e28a92d522f62ac2e0c20f448cec7d12.setIcon(icon_87e618afd90fcbfdba7c88e02e75c221);
+        
+    
+        var popup_726c8dfc90a178adb1322df80757c543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60b65dab9989fd21bd1ffebda1a6cbae = $(`<div id="html_60b65dab9989fd21bd1ffebda1a6cbae" style="width: 100.0%; height: 100.0%;">24 oct. 1973 – Hambourg</div>`)[0];
+            popup_726c8dfc90a178adb1322df80757c543.setContent(html_60b65dab9989fd21bd1ffebda1a6cbae);
+        
+
+        marker_e28a92d522f62ac2e0c20f448cec7d12.bindPopup(popup_726c8dfc90a178adb1322df80757c543)
+        ;
+
+        
+    
+    
+            var poly_line_9d77b033f4766a0f397e50f3743d509d = L.polyline(
+                [[-33.4489, -70.6693], [-32.8908, -68.8458], [-34.6037, -58.3816]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            poly_line_9d77b033f4766a0f397e50f3743d509d.bindTooltip(
+                `<div>
+                     Trajet en voiture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2ff7a2634b26d4b4ac0bcd84e91fcd0a = L.polyline(
+                [[-34.6037, -58.3816], [0.0, -30.0], [55.0, 5.0], [53.5511, 9.9937]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_ea5b612381714efb1e88ac0455246fcc);
+        
+    
+            poly_line_2ff7a2634b26d4b4ac0bcd84e91fcd0a.bindTooltip(
+                `<div>
+                     Trajet en bateau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
